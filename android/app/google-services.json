@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613207105474",
+    "project_id": "modu-tour-df958",
+    "storage_bucket": "modu-tour-df958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613207105474:android:5c2fb57bf0fc04cb99805b",
+        "android_client_info": {
+          "package_name": "com.wavvvy.modu_tour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613207105474-jvfifrno551i1sjjg2fiac9muil397g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk1oqQB51vxJNnRCxmEhGugcdzG_AvpOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613207105474-jvfifrno551i1sjjg2fiac9muil397g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
