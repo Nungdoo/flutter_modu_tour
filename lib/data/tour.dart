@@ -24,10 +24,10 @@ class TourData {
         title = data['title'],
         tel = data['tel'],
         zipcode = data['zipcode'],
-        address = data['address'],
+        address = data['addr1'],
         mapx = data['mapx'],
         mapy = data['mapy'],
-        imagePath = data['imagePath'];
+        imagePath = data['firstimage'];
 
   Map<String, dynamic> toMap() {
     return {
