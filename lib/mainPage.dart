@@ -51,7 +51,10 @@ class _MainPage extends State<MainPage> with SingleTickerProviderStateMixin{
             db: widget.database,
             id: id,
           ),
-          SettingPage(),
+          SettingPage(
+            databaseReference: reference,
+            id: id
+          ),
         ],
         controller: controller,
       ),
