@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:modu_tour/data/tour.dart';
 import 'package:modu_tour/data/listData.dart';
 import 'package:sqflite/sqflite.dart';
+import 'package:modu_tour/main/tourDetailPage.dart';
 
 class MapPage extends StatefulWidget {
   final DatabaseReference? databaseReference; // 실시간 데이터베이스 변수
@@ -146,6 +147,13 @@ class _MapPage extends State<MapPage> {
                             ],
                           ),
                           onTap: () {
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => TourDetailPage(
+                                id: widget.id,
+                                tourData: tourData[index],
+                                index: index,
+                                databaseReference: widget.databaseReference,
+                              )));
                           },
                           onDoubleTap: () {
                             insertTour(widget.db!, tourData[index]);
